@@ -1,0 +1,120 @@
+.weather-app {
+  margin-top: 28px;
+  font-family: "Avant Garde", "Century Gothic", "AppleGothic", sans-serif;
+  width: 400px;
+  height: -moz-min-content;
+  height: min-content;
+  background: #47799f;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+.weather-app h1 {
+  margin-bottom: 24px;
+}
+.weather-app img {
+  width: 75%;
+}
+
+.search-container {
+  width: 100%;
+  height: -moz-min-content;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-container input {
+  color: #06283d;
+  width: 80%;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 32px;
+}
+.search-container input::-moz-placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  color: #06283d;
+  text-transform: capitalize;
+}
+.search-container input::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  color: #06283d;
+  text-transform: capitalize;
+}
+.search-container button {
+  cursor: pointer;
+  width: 90px;
+  height: 60px;
+  color: #06283d;
+  background: #dff6ff;
+  border-radius: 20%;
+  font-size: 22px;
+  transition: 0.4s ease;
+}
+.search-container button:hover {
+  color: #fff;
+  background: #168ad3;
+}
+.search-container .loc_logo {
+  width: 10%;
+}
+
+.weather-container {
+  margin-top: 25px;
+}
+.weather-container .clothing-icon img {
+  width: 80%;
+}
+.weather-container .description {
+  font-size: 18px;
+  font-weight: 400;
+}
+.weather-container .temperature {
+  font-size: 25px;
+  font-weight: 400;
+  font-weight: bold;
+}
+.weather-container p {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.forecast .date {
+  display: block;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.forecast .forecast-item {
+  display: flex;
+}
+.forecast .nextday-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forecast .weather-icon img {
+  width: 100%;
+}
+
+.weather-icon-cur {
+  align-items: center;
+  max-width: 80px;
+}
+
+.clothing-icon-cur {
+  align-items: center;
+  max-width: 80px;
+}/*# sourceMappingURL=WeatherApp.css.map */

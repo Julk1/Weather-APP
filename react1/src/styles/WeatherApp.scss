@@ -1,0 +1,160 @@
+
+
+  .weather-app {
+    margin-top: 28px;
+    
+    font-family: "Avant Garde", "Century Gothic", "AppleGothic", sans-serif;
+    width: 400px;
+    height: min-content;
+    background: #47799f;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;    
+  
+    h1 {
+      margin-bottom: 24px;
+    }
+  
+    
+    img {
+      width: 75%;
+    }
+  }
+  
+  .search-container {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    input {
+      color: #06283d;
+      width: 80%;
+      font-size: 24px;
+      font-weight: 500;
+      padding-left: 32px;
+    }
+  
+    input::placeholder {
+      font-size: 20px;
+      font-weight: 500;
+      color: #06283d;
+      text-transform: capitalize;
+    }
+  
+    button {
+      cursor: pointer;
+      width: 90px;
+      height: 60px;
+      color: #06283d;
+      background: #dff6ff;
+      border-radius: 20%;
+      font-size: 22px;
+      transition: 0.4s ease;
+    }
+  
+    button:hover {
+      color: #fff;
+      background: #168ad3;
+    }
+  
+    .loc_logo {
+      width: 10%;
+    }
+  
+   
+  }
+
+  
+  
+  .weather-container {
+    margin-top: 25px;   
+
+    .clothing-icon {
+        
+        img {
+            width: 80%;
+          }
+        }
+    
+    .description {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .temperature{
+        font-size: 25px;
+        font-weight: 400;
+        font-weight: bold;
+        
+    
+      }
+  
+    p {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 24px;
+    }
+  
+    
+    }
+
+      .weather-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+          }
+        
+    
+    .forecast {
+      .date {
+        display: block;
+        margin-bottom: 24px;
+        margin-top: 24px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+  
+      .forecast-item {
+        display: flex;
+  
+        }
+  
+        .nextday-weather {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          
+
+          }
+          .weather-icon {
+            
+            img {
+              width: 100%;
+             
+            }
+        }
+    }
+
+    .weather-icon-cur {
+        
+        align-items: center;
+        max-width: 80px;
+        
+
+    }
+
+    .clothing-icon-cur {
+        align-items: center;
+        max-width: 80px;
+
+    }
+    
+      
+    
+  
+  
